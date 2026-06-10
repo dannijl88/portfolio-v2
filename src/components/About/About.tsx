@@ -8,13 +8,12 @@ export function About() {
         <div className="about__content">
           <p className="section__eyebrow">sobre mí</p>
           <h2 className="section__title" id="about-title">
-            Desarrollo interfaces simples para productos digitales.
+            Desarrollo interfaces modernas para productos digitales.
           </h2>
           <p className="section__text">
-            Me centro en crear experiencias claras, rápidas y fáciles de mantener. Trabajo con React y TypeScript,
-            cuidando la estructura del código, la accesibilidad y una capa visual precisa con CSS puro.
+            Como desarrollador frontend, mi objetivo es convertir diseños en aplicaciones rápidas, escalables y accesibles. Trabajo con React, TypeScript y CSS, priorizando la calidad del código y una experiencia de usuario cuidada.
           </p>
-          <p className="about__meta">Crevillente, Alicante, España · danijuan.com</p>
+          <p className="about__meta">Crevillente (Alicante) · Disponible para trabajo remoto, presencial e híbrido</p>
         </div>
         <div className="about__skills" aria-label="Habilidades">
           {skills.map((skill) => (
