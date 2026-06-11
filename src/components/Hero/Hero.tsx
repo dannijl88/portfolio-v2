@@ -13,7 +13,7 @@ export function Hero() {
           disponible para trabajar
         </div>
         <h1 className="hero__title" id="hero-title">
-          Frontend Developer
+          Frontend Developer Junior
         </h1>
         <p className="hero__description">
           Soy desarrollador frontend con formación en Desarrollo de Aplicaciones Web. Me apasiona crear aplicaciones rápidas, accesibles y mantenibles, combinando diseño, rendimiento y código limpio para ofrecer la mejor experiencia de usuario.

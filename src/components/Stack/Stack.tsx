@@ -1,4 +1,4 @@
-import { stack } from "../../data/profile";
+import { stack, iconMap } from "../../data/profile";
 import "./Stack.css";
 
 export function Stack() {
@@ -11,13 +11,24 @@ export function Stack() {
             Herramientas con las que construyo.
           </h2>
         </div>
-        <ul className="stack__list">
-          {stack.map((item) => (
-            <li className="stack__item" key={item}>
-              {item}
-            </li>
+        <div className="stack__categories">
+          {stack.map((category) => (
+            <div className="stack__category" key={category.category}>
+              <p className="stack__category-title">{category.category}</p>
+              <ul className="stack__list">
+                {category.items.map((item) => {
+                  const Icon = iconMap[item.icon]
+                  return (
+                    <li className="stack__item" key={item.name}>
+                      {Icon && <Icon size={32} />}
+                      <span className="stack__item-name">{item.name}</span>
+                    </li>
+                  )
+                })}
+              </ul>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </section>
   );

@@ -47,24 +47,6 @@ export const projects: Project[] = [
     featured: false,
   },
   {
-    name: "Calculadora JS",
-    description:
-      "Calculadora interactiva desarrollada en JavaScript que permite realizar operaciones básicas con resultados inmediatos. Incluye manejo de eventos y actualización dinámica de la pantalla.",
-    tags: ["JavaScript", "HTML", "CSS"],
-    demo: "https://calculadora.danijuan.com/",
-    code: "https://github.com/dannijl88/Calculadora-JavaScript",
-    featured: false,
-  },
-  {
-    name: "Tienda online PHP",
-    description:
-      "Tienda online realizada siguiendo un curso, implementando PHP y MySQL con el patrón MVC. Permite gestionar productos, usuarios y pedidos, y sirve para aprender la estructura y organización de proyectos en MVC.",
-    tags: ["PHP", "MySQL", "HTML", "CSS", "MVC"],
-    demo: "https://github.com/dannijl88/Tienda-online-PHP",
-    code: "https://github.com/dannijl88/Tienda-online-PHP",
-    featured: false,
-  },
-  {
     name: "Medicina Tradicional China",
     description:
       "Versión desarrollada en React y Tailwind de un proyecto previamente hecho en WordPress. El objetivo fue trasladar la estructura a un entorno más flexible y moderno, mejorando rendimiento y personalización.",
