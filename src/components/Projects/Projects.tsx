@@ -1,6 +1,7 @@
 import { projects } from "../../data/projects";
 import type { Project } from "../../types/portfolio";
 import "./Projects.css";
+import { useTranslation } from "react-i18next";
 
 function ProjectLinkIcon({ type }: { type: "demo" | "code" }) {
   if (type === "code") {
@@ -20,6 +21,7 @@ function ProjectLinkIcon({ type }: { type: "demo" | "code" }) {
 }
 
 function ProjectCard({ project }: { project: Project }) {
+  const {t} = useTranslation();
   const cardClassName = project.featured
     ? "projects__card projects__card--featured"
     : "projects__card";
@@ -34,13 +36,13 @@ function ProjectCard({ project }: { project: Project }) {
             <ProjectLinkIcon type="demo" />
           </a>
           <a className="projects__link" href={project.code} target="_blank" rel="noreferrer">
-            código
+            {t('projects.code')}
             <ProjectLinkIcon type="code" />
           </a>
         </div>
       </header>
       <div className="projects__card-content">
-        <p className="projects__card-description">{project.description}</p>
+        <p className="projects__card-description">{t(project.description)}</p>
       </div>
       <div className="projects__tags" aria-label={`Tecnologías de ${project.name}`}>
         {project.tags.map((tag) => (
@@ -54,13 +56,14 @@ function ProjectCard({ project }: { project: Project }) {
 }
 
 export function Projects() {
+  const { t } = useTranslation();
   return (
     <section className="projects section" id="proyectos" aria-labelledby="projects-title">
       <div className="projects__inner section__inner">
         <div className="projects__header">
-          <p className="section__eyebrow">proyectos</p>
+          <p className="section__eyebrow">{t('projects.title')}</p>
           <h2 className="section__title" id="projects-title">
-            Trabajo reciente
+            {t('projects.description')}
           </h2>
         </div>
         <div className="projects__grid">

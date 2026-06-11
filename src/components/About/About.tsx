@@ -1,19 +1,21 @@
 import { skills } from "../../data/profile";
 import "./About.css";
+import { useTranslation } from "react-i18next";
 
 export function About() {
+  const { t } = useTranslation();
   return (
     <section className="about section" id="sobre-mi" aria-labelledby="about-title">
       <div className="about__inner section__inner">
         <div className="about__content">
-          <p className="section__eyebrow">sobre mí</p>
+          <p className="section__eyebrow">{t('about.title')}</p>
           <h2 className="section__title" id="about-title">
-            Desarrollo interfaces modernas para productos digitales.
+            {t('about.subtitle')}
           </h2>
           <p className="section__text">
-            Como desarrollador frontend, mi objetivo es convertir diseños en aplicaciones rápidas, escalables y accesibles. Trabajo con React, TypeScript y CSS, priorizando la calidad del código y una experiencia de usuario cuidada.
+            {t('about.description')}
           </p>
-          <p className="about__meta">Crevillente (Alicante) · Disponible para trabajo remoto, presencial e híbrido</p>
+          <p className="about__meta">{t('about.meta')}</p>
         </div>
         <div className="about__skills" aria-label="Habilidades">
           {skills.map((skill) => (

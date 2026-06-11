@@ -17,10 +17,10 @@ import {
 } from 'devicons-react'
 
 export const navItems: NavItem[] = [
-  { label: "sobre mí", target: "sobre-mi" },
-  { label: "proyectos", target: "proyectos" },
-  { label: "stack", target: "stack" },
-  { label: "contacto", target: "contacto" },
+  { label: "nav.sobremi", target: "sobre-mi" },
+  { label: "nav.proyectos", target: "proyectos" },
+  { label: "nav.stack", target: "stack" },
+  { label: "nav.contacto", target: "contacto" },
 ];
 
 export const skills: string[] = [

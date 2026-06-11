@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import { navItems } from "../../data/profile";
+import { LanguageSwitch } from "../LanguageSwitch/LanguageSwitch";
 import "./Header.css";
+import { useTranslation } from "react-i18next";
 
 export function Header() {
+  const { t } = useTranslation();
   const handleNavClick = (target: string) => {
     const section = document.getElementById(target);
     section?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -22,9 +25,10 @@ export function Header() {
               type="button"
               onClick={() => handleNavClick(item.target)}
             >
-              {item.label}
+              {t(item.label)}
             </button>
           ))}
+          <LanguageSwitch />
         </div>
       </nav>
     </header>

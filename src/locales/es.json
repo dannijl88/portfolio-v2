@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "status": "disponible para trabajar",
+    "title": "Frontend Developer Junior",
+    "description": "Soy desarrollador frontend con formación en Desarrollo de Aplicaciones Web...",
+    "actions": {
+      "projects": "ver proyectos",
+      "cv": "descargar CV"
+    }
+  },
+  "about": {
+    "title": "Sobre mi",
+    "subtitle": "Desarrollo interfaces modernas para productos digitales.",
+    "description": "Como desarrollador frontend...",
+    "meta": "Crevillente (Alicante) · Disponible para trabajo remoto, presencial e híbrido"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "description": "Trabajo reciente",
+    "devrecipes": {
+      "description": "Plataforma completa de gestión de recetas donde los usuarios pueden registrarse, iniciar sesión, publicar sus propias recetas y explorar las de otros. Todo con autenticación segura mediante JWT para que cada usuario solo pueda editar y eliminar sus propias recetas."
+    },
+    "taskflow": {
+      "description": "Aplicación de gestión de tareas desarrollada con React y TypeScript. Incluye autenticación simulada con rutas protegidas, CRUD completo con edición inline, estado global mediante Context API y hooks personalizados, filtrado de tareas por estado y tests con Vitest y React Testing Library."
+    },
+    "spaceexplorer": {
+      "description": "App de exploración espacial que consume APIs reales de la NASA. Muestra la imagen astronómica del día, fotos del satélite DSCOVR, asteroides cercanos a la Tierra y una galería de imágenes históricas con buscador."
+    },
+    "devmovies": {
+      "description": "Plataforma de películas que consume la API de TMDB para mostrar información actualizada en tiempo real. El backend actúa como intermediario entre el frontend y la API externa, exponiendo sus propios endpoints REST."
+    },
+    "appclima": {
+      "description": "Aplicación web interactiva que muestra información meteorológica en tiempo real. Creada con React, Tailwind y TypeScript para practicar componentes reutilizables y diseño responsive."
+    },
+    "medicinachina": {
+      "description": "Versión desarrollada en React y Tailwind de un proyecto previamente hecho en WordPress. El objetivo fue trasladar la estructura a un entorno más flexible y moderno, mejorando rendimiento y personalización."
+    },
+    "code": "código"
+  },
+  "stack": {
+    "title": "STACK",
+    "description": "Herramientas con las que construyo."
+  },
+  "contact": {
+    "title": "CONTACTO",
+    "description": "Hablemos de tu próximo proyecto.",
+    "text": "Estoy abierto a oportunidades junior, prácticas y colaboraciones donde pueda aportar en frontend y seguir creciendo con un equipo."
+  },
+  "nav": {
+    "sobremi": "sobre mi",
+    "proyectos": "proyectos",
+    "stack": "stack",
+    "contacto": "contacto"
+  }
+}

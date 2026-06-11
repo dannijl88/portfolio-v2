@@ -1,6 +1,7 @@
 import { contactLinks } from "../../data/profile";
 import type { ContactLink } from "../../types/portfolio";
 import "./Contact.css";
+import { useTranslation } from "react-i18next";
 
 function ContactIcon({ icon }: { icon: ContactLink["icon"] }) {
   if (icon === "mail") {
@@ -31,16 +32,16 @@ function ContactIcon({ icon }: { icon: ContactLink["icon"] }) {
 }
 
 export function Contact() {
+  const {t} = useTranslation();
   return (
     <section className="contact section" id="contacto" aria-labelledby="contact-title">
       <div className="contact__inner section__inner">
-        <p className="section__eyebrow">contacto</p>
+        <p className="section__eyebrow">{t('contact.title')}</p>
         <h2 className="contact__title section__title" id="contact-title">
-          Hablemos de tu próximo proyecto.
+          {t('contact.description')}
         </h2>
         <p className="contact__text">
-          Estoy abierto a oportunidades junior, prácticas y colaboraciones donde pueda aportar en frontend y seguir
-          creciendo con un equipo.
+          {t('contact.text')}
         </p>
         <div className="contact__links">
           {contactLinks.map((link) => (

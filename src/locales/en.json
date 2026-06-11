@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "status": "available for work",
+    "title": "Junior Frontend Developer",
+    "description": "I am a frontend developer with a background in Web Application Development. I am passionate about building fast, accessible, and maintainable applications, combining design, performance, and clean code to deliver the best user experience.",
+    "actions": {
+      "projects": "view projects",
+      "cv": "download CV"
+    }
+  },
+  "about": {
+    "title": "About me",
+    "subtitle": "Developing modern interfaces for digital products.",
+    "description": "As a frontend developer, my goal is to turn designs into fast, scalable, and accessible applications. I work with React, TypeScript, and CSS, prioritizing code quality and a polished user experience.",
+    "meta": "Crevillente (Alicante) · Available for remote, on-site, and hybrid work"
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Recent work",
+    "devrecipes": {
+      "description": "A complete recipe management platform where users can register, log in, publish their own recipes, and explore others' creations. It features secure JWT authentication, ensuring users can only edit or delete their own recipes."
+    },
+    "taskflow": {
+      "description": "A task management application built with React and TypeScript. Features mock authentication with protected routes, a full CRUD system with inline editing, global state management using Context API and custom hooks, status-based task filtering, and unit testing with Vitest and React Testing Library."
+    },
+    "spaceexplorer": {
+      "description": "A space exploration app that consumes real NASA APIs. It showcases the Astronomy Picture of the Day, DSCOVR satellite photos, near-Earth asteroids, and an interactive historical image gallery with search functionality."
+    },
+    "devmovies": {
+      "description": "A movie platform that consumes the TMDB API to display real-time updated information. The backend acts as a middleware between the frontend and the external API, exposing its own custom REST endpoints."
+    },
+    "appclima": {
+      "description": "An interactive weather web application displaying real-time meteorological data. Built with React, Tailwind CSS, and TypeScript to practice reusable components and responsive design."
+    },
+    "medicinachina": {
+      "description": "A React and Tailwind CSS version of a project previously built with WordPress. The goal was to migrate the structure to a more flexible and modern environment, significantly improving performance and customization."
+    },
+    "code": "code"
+  },
+  "stack": {
+    "title": "STACK",
+    "description": "Tools I build with."
+  },
+  "contact": {
+    "title": "CONTACT",
+    "description": "Let's talk about your next project.",
+    "text": "I am open to junior opportunities, internships, and collaborations where I can contribute to the frontend and continue growing with a team."
+  },
+  "nav": {
+    "sobremi": "about me",
+    "proyectos": "projects",
+    "stack": "stack",
+    "contacto": "contact"
+  }
+}

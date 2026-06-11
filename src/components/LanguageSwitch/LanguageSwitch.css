@@ -1,0 +1,59 @@
+.lang-switch-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 76px;
+  height: 34px;
+  background-color: rgba(255, 255, 255, 0.05); /* Fondo oscuro translúcido */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9999px;
+  cursor: pointer;
+  padding: 3px;
+  overflow: hidden;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.lang-switch-container:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* El fondo deslizante (la pastilla blanca activa) */
+.lang-switch-slider {
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  width: 34px; /* Un poco menos de la mitad del botón */
+  background: #ffffff; /* Color de la pastilla activa */
+  border-radius: 9999px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* Animación suave usando cúbica-bezier para el efecto rebote premium */
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Desplazamiento del slider a la izquierda (ES) o derecha (EN) */
+.lang-switch-slider.es {
+  transform: translateX(0px);
+}
+
+.lang-switch-slider.en {
+  transform: translateX(36px); /* Distancia exacta para posicionarse en EN */
+}
+
+/* Textos ES / EN */
+.lang-switch-text {
+  flex: 1;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  z-index: 1; /* IMPORTANTE: Asegura que el texto esté sobre el slider */
+  color: #737373; /* Gris apagado para el inactivo */
+  transition: color 0.3s ease;
+  user-select: none;
+}
+
+/* El texto activo cambia a color oscuro para resaltar sobre el slider blanco */
+.lang-switch-text.active {
+  color: #0a0a0a;
+}

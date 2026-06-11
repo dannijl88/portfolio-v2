@@ -1,14 +1,16 @@
 import { stack, iconMap } from "../../data/profile";
 import "./Stack.css";
+import { useTranslation } from "react-i18next";
 
 export function Stack() {
+  const {t} = useTranslation();
   return (
     <section className="stack section" id="stack" aria-labelledby="stack-title">
       <div className="stack__inner section__inner">
         <div>
           <p className="section__eyebrow">stack</p>
           <h2 className="section__title" id="stack-title">
-            Herramientas con las que construyo.
+            {t('stack.description')}
           </h2>
         </div>
         <div className="stack__categories">
