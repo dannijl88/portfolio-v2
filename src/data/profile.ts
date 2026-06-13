@@ -13,7 +13,8 @@ import {
   DockerOriginal,
   VitestOriginal,
   TailwindcssOriginal,
-  NodejsOriginal
+  NodejsOriginal,
+  JetbrainsOriginal
 } from 'devicons-react'
 
 export const navItems: NavItem[] = [
@@ -61,14 +62,14 @@ export const stack = [
     category: "Testing",
     items: [
       { name: "Vitest", icon: "vitest" },
-      { name: "Testing Library", icon: "testinglibrary" },
+      { name: "Jest", icon: "jest" },
     ]
   },
   {
     category: "Herramientas",
     items: [
       { name: "Git", icon: "git" },
-      { name: "GitHub", icon: "github" },
+      { name: "GitHub", icon: "github", invert: true },
       { name: "Docker", icon: "docker" },
     ]
   }
@@ -88,7 +89,8 @@ export const iconMap: Record<string, React.ComponentType<{ size?: number }>> = {
   docker: DockerOriginal,
   vitest: VitestOriginal,
   tailwind: TailwindcssOriginal,
-  node: NodejsOriginal
+  node: NodejsOriginal,
+  jest: JetbrainsOriginal
 }
 
 export const contactLinks: ContactLink[] = [

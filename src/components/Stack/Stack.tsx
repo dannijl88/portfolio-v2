@@ -22,7 +22,9 @@ export function Stack() {
                   const Icon = iconMap[item.icon]
                   return (
                     <li className="stack__item" key={item.name}>
-                      {Icon && <Icon size={32} />}
+                      <div style={item.invert ? { filter: 'brightness(0) invert(1)' } : {}}>
+                        {Icon && <Icon size={32} />}
+                      </div>
                       <span className="stack__item-name">{item.name}</span>
                     </li>
                   )
