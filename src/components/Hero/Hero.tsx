@@ -24,7 +24,7 @@ export function Hero() {
           <button className="hero__button hero__button--primary" type="button" onClick={handleProjectsClick}>
             {t('hero.actions.projects')}
           </button>
-          <a className="hero__button hero__button--secondary" href="/src/assets/CV_Daniel_Juan_Lician_ATS_v2" target="_blank" download>
+          <a className="hero__button hero__button--secondary" href="/public/CV_Daniel_Juan_Lician.pdf" target="_blank" download>
             {t('hero.actions.cv')}
           </a>
         </div>
