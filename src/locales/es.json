@@ -2,7 +2,7 @@
   "hero": {
     "status": "disponible para trabajar",
     "title": "Frontend Developer Junior",
-    "description": "Soy desarrollador frontend con formación en Desarrollo de Aplicaciones Web...",
+    "description": "Soy desarrollador frontend con formación en Desarrollo de Aplicaciones Web. Me apasiona construir aplicaciones rápidas, accesibles y mantenibles, combinando diseño, rendimiento y código limpio para ofrecer la mejor experiencia de usuario.",
     "actions": {
       "projects": "ver proyectos",
       "cv": "descargar CV"
@@ -11,7 +11,7 @@
   "about": {
     "title": "Sobre mi",
     "subtitle": "Desarrollo interfaces modernas para productos digitales.",
-    "description": "Como desarrollador frontend...",
+    "description": "Como desarrollador frontend, mi objetivo es convertir diseños en aplicaciones rápidas, escalables y accesibles. Trabajo con React, TypeScript y CSS, priorizando la calidad del código y una experiencia de usuario pulida.",
     "meta": "Crevillente (Alicante) · Disponible para trabajo remoto, presencial e híbrido"
   },
   "projects": {
