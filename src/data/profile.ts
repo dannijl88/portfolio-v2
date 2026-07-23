@@ -28,13 +28,14 @@ export const skills: string[] = [
   "React",
   "TypeScript",
   "JavaScript",
-  "CSS BEM",
-  "Vite",
-  "React Router",
-  "Vitest",
-  "REST APIs",
-  "Git",
+  "Java",
   "Spring Boot",
+  "MySQL",
+  "CSS BEM",
+  "vite",
+  "React Router",
+  "Git",
+  "REST API"
 ];
 
 export const stack = [
