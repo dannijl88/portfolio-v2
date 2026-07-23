@@ -1,8 +1,8 @@
 {
   "hero": {
     "status": "available for work",
-    "title": "Junior Frontend Developer",
-    "description": "I am a frontend developer with a background in Web Application Development. I am passionate about building fast, accessible, and maintainable applications, combining design, performance, and clean code to deliver the best user experience.",
+    "title": "Junior Full Stack Developer",
+    "description": "Junior web developer with a background in Web Application Development. I build complete applications with React, TypeScript, and Java/Spring Boot. Projects deployed in production with JWT authentication, REST APIs, and MySQL databases.",
     "actions": {
       "projects": "view projects",
       "cv": "download CV"
@@ -10,24 +10,24 @@
   },
   "about": {
     "title": "About me",
-    "subtitle": "Developing modern interfaces for digital products.",
-    "description": "As a frontend developer, my goal is to turn designs into fast, scalable, and accessible applications. I work with React, TypeScript, and CSS, prioritizing code quality and a polished user experience.",
+    "subtitle": "I build complete web applications, from frontend to backend.",
+    "description": "As a junior full stack developer, my goal is to turn designs into fast, scalable, and accessible applications. I work with React and TypeScript on the frontend, and Java with Spring Boot on the backend, prioritizing code quality and a polished user experience.",
     "meta": "Crevillente (Alicante) · Available for remote, on-site, and hybrid work"
   },
   "projects": {
     "title": "Projects",
     "description": "Recent work",
     "devrecipes": {
-      "description": "A complete recipe management platform where users can register, log in, publish their own recipes, and explore others' creations. It features secure JWT authentication, ensuring users can only edit or delete their own recipes."
-    },
-    "taskflow": {
-      "description": "A task management application built with React and TypeScript. Features mock authentication with protected routes, a full CRUD system with inline editing, global state management using Context API and custom hooks, status-based task filtering, and unit testing with Vitest and React Testing Library."
-    },
-    "spaceexplorer": {
-      "description": "A space exploration app that consumes real NASA APIs. It showcases the Astronomy Picture of the Day, DSCOVR satellite photos, near-Earth asteroids, and an interactive historical image gallery with search functionality."
+      "description": "A complete full stack recipe management platform with JWT authentication. Users can register, log in, publish recipes, and explore others'. Backend built with Spring Boot, Spring Security, JPA/Hibernate, and MySQL. Frontend with React and TypeScript. Deployed on Vercel and Railway."
     },
     "devmovies": {
-      "description": "A movie platform that consumes the TMDB API to display real-time updated information. The backend acts as a middleware between the frontend and the external API, exposing its own custom REST endpoints."
+      "description": "A full stack movie platform. Backend with Spring Boot exposing custom REST endpoints that act as middleware between the frontend and the TMDB API. Frontend in React and TypeScript. Displays popular, top-rated, now playing, upcoming movies, and search by title."
+    },
+    "spaceexplorer": {
+      "description": "A space exploration app that consumes real NASA APIs (APOD, EPIC, NeoWs, Image Library). Custom hooks for data logic, loading, and error handling. Unit tests for hooks with fetch mocking."
+    },
+    "taskflow": {
+      "description": "A task management application built with React and TypeScript. Features mock authentication with protected routes, a full CRUD system with inline editing, global state management using Context API and custom hooks, status-based task filtering, and testing with Vitest and React Testing Library."
     },
     "appclima": {
       "description": "An interactive weather web application displaying real-time meteorological data. Built with React, Tailwind CSS, and TypeScript to practice reusable components and responsive design."
@@ -44,7 +44,7 @@
   "contact": {
     "title": "CONTACT",
     "description": "Let's talk about your next project.",
-    "text": "I am open to junior opportunities, internships, and collaborations where I can contribute to the frontend and continue growing with a team."
+    "text": "I am open to junior opportunities, internships, and collaborations where I can contribute to the frontend, backend, or full stack and continue growing with a team."
   },
   "nav": {
     "sobremi": "about me",
