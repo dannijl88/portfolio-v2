@@ -1,55 +1,55 @@
 {
   "hero": {
-    "status": "disponible para trabajar",
-    "title": "Junior Full Stack Developer",
-    "description": "Desarrollador web junior con formacion en DAW. Construyo aplicaciones completas con React, TypeScript y Java/Spring Boot. Proyectos desplegados en produccion con autenticacion JWT, APIs REST y bases de datos MySQL.",
+    "status": "Disponible para trabajar",
+    "title": "Full Stack Developer",
+    "description": "Desarrollador Full Stack con formación en DAW. Construyo aplicaciones completas con Java, Spring Boot, React y TypeScript. Proyectos desplegados en producción con autenticación JWT, APIs REST y bases de datos MySQL.",
     "actions": {
-      "projects": "ver proyectos",
-      "cv": "descargar CV"
+      "projects": "Ver proyectos",
+      "cv": "Descargar CV"
     }
   },
   "about": {
-    "title": "Sobre mi",
+    "title": "Sobre mí",
     "subtitle": "Desarrollo aplicaciones web completas, de frontend a backend.",
-    "description": "Como desarrollador full stack junior, mi objetivo es convertir diseños en aplicaciones rapidas, escalables y accesibles. Trabajo con React y TypeScript en el frontend, y Java con Spring Boot en el backend, priorizando la calidad del codigo y una experiencia de usuario pulida.",
-    "meta": "Crevillente (Alicante) · Disponible para trabajo remoto, presencial e hibrido"
+    "description": "Construyo aplicaciones web completas de frontend a backend. Trabajo con React y TypeScript en el cliente, y Java con Spring Boot en el servidor, priorizando código limpio, testing y buenas prácticas.",
+    "meta": "Crevillente (Alicante) · Disponible para trabajo remoto, presencial e híbrido"
   },
   "projects": {
     "title": "Proyectos",
     "description": "Trabajo reciente",
     "devrecipes": {
-      "description": "Plataforma completa de gestion de recetas con autenticacion JWT. Los usuarios pueden registrarse, iniciar sesion, publicar recetas y explorar las de otros. Backend con Spring Boot, Spring Security, JPA/Hibernate y MySQL. Frontend con React y TypeScript. Desplegada en Vercel y Railway."
+      "description": "Plataforma completa de gestión de recetas con autenticación JWT. Los usuarios pueden registrarse, iniciar sesión, publicar recetas y explorar las de otros. Backend con Spring Boot, Spring Security, JPA/Hibernate y MySQL. Frontend con React y TypeScript. Desplegada en Vercel y Railway."
     },
     "devmovies": {
-      "description": "Plataforma de peliculas full stack. Backend con Spring Boot exponiendo endpoints REST propios que actuan como intermediario entre el frontend y la API de TMDB. Frontend en React y TypeScript. Muestra peliculas populares, mejor valoradas, en cartelera, proximos estrenos y busqueda por titulo."
+      "description": "Plataforma de películas full stack. Backend con Spring Boot exponiendo endpoints REST propios que actúan como intermediario entre el frontend y la API de TMDB. Frontend en React y TypeScript. Muestra películas populares, mejor valoradas, en cartelera, próximos estrenos y búsqueda por título."
     },
     "spaceexplorer": {
-      "description": "App de exploracion espacial que consume APIs reales de la NASA (APOD, EPIC, NeoWs, Image Library). Custom hooks para logica de datos, carga y manejo de errores. Tests unitarios para hooks con mocking de fetch."
+      "description": "App de exploración espacial que consume APIs reales de la NASA (APOD, EPIC, NeoWs, Image Library). Custom hooks para lógica de datos, carga y manejo de errores. Tests unitarios para hooks con mocking de fetch."
     },
     "taskflow": {
-      "description": "Aplicacion de gestion de tareas desarrollada con React y TypeScript. Incluye autenticacion simulada con rutas protegidas, CRUD completo con edicion inline, estado global mediante Context API y hooks personalizados, filtrado de tareas por estado y tests con Vitest y React Testing Library."
+      "description": "Aplicación de gestión de tareas desarrollada con React y TypeScript. Incluye autenticación simulada con rutas protegidas, CRUD completo con edición inline, estado global mediante Context API y hooks personalizados, filtrado de tareas por estado y tests con Vitest y React Testing Library."
     },
     "appclima": {
-      "description": "Aplicacion web interactiva que muestra informacion meteorologica en tiempo real. Creada con React, Tailwind y TypeScript para practicar componentes reutilizables y diseno responsive."
+      "description": "Aplicación web interactiva que muestra información meteorológica en tiempo real. Creada con React, Tailwind y TypeScript para practicar componentes reutilizables y diseño responsive."
     },
     "medicinachina": {
-      "description": "Version desarrollada en React y Tailwind de un proyecto previamente hecho en WordPress. El objetivo fue trasladar la estructura a un entorno mas flexible y moderno, mejorando rendimiento y personalizacion."
+      "description": "Versión desarrollada en React y Tailwind de un proyecto previamente hecho en WordPress. El objetivo fue trasladar la estructura a un entorno más flexible y moderno, mejorando rendimiento y personalización."
     },
-    "code": "codigo"
+    "code": "Código"
   },
   "stack": {
-    "title": "STACK",
+    "title": "Stack",
     "description": "Herramientas con las que construyo."
   },
   "contact": {
-    "title": "CONTACTO",
-    "description": "Hablemos de tu proximo proyecto.",
-    "text": "Estoy abierto a oportunidades junior, practicas y colaboraciones donde pueda aportar en frontend, backend o full stack y seguir creciendo con un equipo."
+    "title": "Contacto",
+    "description": "¿Hablamos?",
+    "text": "¿Tienes un proyecto o vacante donde encaje mi stack? Escríbeme y hablamos."
   },
   "nav": {
-    "sobremi": "sobre mi",
-    "proyectos": "proyectos",
-    "stack": "stack",
-    "contacto": "contacto"
+    "sobremi": "Sobre mí",
+    "proyectos": "Proyectos",
+    "stack": "Stack",
+    "contacto": "Contacto"
   }
 }
