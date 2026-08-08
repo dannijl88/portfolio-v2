@@ -13,8 +13,9 @@ import {
   DockerOriginal,
   VitestOriginal,
   TailwindcssOriginal,
-  NodejsOriginal,
-  JetbrainsOriginal
+  JetbrainsOriginal,
+  HibernateOriginal,
+  JunitOriginal,
 } from 'devicons-react'
 
 export const navItems: NavItem[] = [
@@ -25,17 +26,22 @@ export const navItems: NavItem[] = [
 ];
 
 export const skills: string[] = [
+  "Java",
+  "Spring Boot",
   "React",
   "TypeScript",
   "JavaScript",
-  "Java",
-  "Spring Boot",
   "MySQL",
   "CSS BEM",
   "vite",
   "React Router",
   "Git",
-  "REST API"
+  "REST API",
+  "Hibernate",
+  "Spring Security",
+  "JWT",
+  "Junit",
+  "Mockito"
 ];
 
 export const stack = [
@@ -55,8 +61,8 @@ export const stack = [
     items: [
       { name: "Java", icon: "java" },
       { name: "Spring Boot", icon: "spring" },
-      { name: "Node.js", icon: "node" },
       { name: "MySQL", icon: "mysql" },
+      { name: "Hibernate", icon: "hibernate" },
     ]
   },
   {
@@ -64,6 +70,7 @@ export const stack = [
     items: [
       { name: "Vitest", icon: "vitest" },
       { name: "Jest", icon: "jest" },
+      { name: "Junit", icon: "junit" },
     ]
   },
   {
@@ -90,8 +97,9 @@ export const iconMap: Record<string, React.ComponentType<{ size?: number }>> = {
   docker: DockerOriginal,
   vitest: VitestOriginal,
   tailwind: TailwindcssOriginal,
-  node: NodejsOriginal,
-  jest: JetbrainsOriginal
+  jest: JetbrainsOriginal,
+  hibernate: HibernateOriginal,
+  junit: JunitOriginal
 }
 
 export const contactLinks: ContactLink[] = [
