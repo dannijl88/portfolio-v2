@@ -39,6 +39,24 @@ export const projects: Project[] = [
     featured: false,
   },
   {
+    name: "Tienda de Música",
+    description:
+      "projects.tiendamusica.description",
+    tags: ["Java", "Spring Boot", "Spring Data JPA", "MySQL", "Docker", "JUnit", "Mockito"],
+    demo: "https://github.com/dannijl88/tienda-musica",
+    code: "https://github.com/dannijl88/tienda-musica",
+    featured: false,
+  },
+  {
+    name: "Gestor de Biblioteca",
+    description:
+      "projects.gestorbiblioteca.description",
+    tags: ["Java", "Spring Boot", "Spring Data JPA", "MySQL", "Docker", "JUnit", "Mockito"],
+    demo: "https://github.com/dannijl88/gestor-biblioteca",
+    code: "https://github.com/dannijl88/gestor-biblioteca",
+    featured: false,
+  },
+  {
     name: "App Clima",
     description:
       "projects.appclima.description",

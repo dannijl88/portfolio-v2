@@ -23,6 +23,12 @@
     "devmovies": {
       "description": "Plataforma de películas full stack. Backend con Spring Boot exponiendo endpoints REST propios que actúan como intermediario entre el frontend y la API de TMDB. Frontend en React y TypeScript. Muestra películas populares, mejor valoradas, en cartelera, próximos estrenos y búsqueda por título."
     },
+    "tiendamusica": {
+      "description": "API REST para gestionar artistas y álbumes, con relación bidireccional Artist–Album. Stack: Spring Boot, Spring Data JPA/Hibernate, MySQL, Bean Validation, manejo global de excepciones. Testing unitario (Mockito) y de integración (MockMvc). Dockerizado con Docker Compose (app + MySQL)."
+    },
+    "gestorbiblioteca": {
+      "description": "API REST para gestionar autores, libros y préstamos, con lógica de negocio propia: no se puede prestar un libro que ya está prestado. Uso de DTOs y mappers para separar la capa de persistencia de la respuesta de la API. Testing unitario con Mockito. Dockerizado con Docker Compose (healthcheck de MySQL)."
+    },
     "spaceexplorer": {
       "description": "App de exploración espacial que consume APIs reales de la NASA (APOD, EPIC, NeoWs, Image Library). Custom hooks para lógica de datos, carga y manejo de errores. Tests unitarios para hooks con mocking de fetch."
     },
