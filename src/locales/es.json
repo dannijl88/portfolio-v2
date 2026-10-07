@@ -1,7 +1,7 @@
 {
   "hero": {
     "status": "Disponible para trabajar",
-    "title": "Full Stack Developer",
+    "title": "Backend Developer",
         "description": "Desarrollador Backend con formación en DAW. Construyo APIs REST robustas con Java y Spring Boot, con experiencia en autenticación JWT, persistencia de datos y arquitectura limpia. Proyectos desplegados en producción.",
     "actions": {
       "projects": "Ver proyectos",
