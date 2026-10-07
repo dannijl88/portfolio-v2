@@ -3,6 +3,24 @@ import type { Project } from "../types/portfolio";
 
 export const projects: Project[] = [
   {
+    name: "Tienda de Música",
+    description:
+      "projects.tiendamusica.description",
+    tags: ["Java", "Spring Boot", "Spring Data JPA", "MySQL", "Docker", "JUnit", "Mockito"],
+    demo: "https://github.com/dannijl88/tienda-musica",
+    code: "https://github.com/dannijl88/tienda-musica",
+    featured: false,
+  },
+  {
+    name: "Gestor de Biblioteca",
+    description:
+      "projects.gestorbiblioteca.description",
+    tags: ["Java", "Spring Boot", "Spring Data JPA", "MySQL", "Docker", "JUnit", "Mockito"],
+    demo: "https://github.com/dannijl88/gestor-biblioteca",
+    code: "https://github.com/dannijl88/gestor-biblioteca",
+    featured: false,
+  },
+  {
     name: "DevRecipes",
     description:
       "projects.devrecipes.description",
@@ -36,24 +54,6 @@ export const projects: Project[] = [
     tags: ["React", "Spring Boot", "TypeScript", "APIRest", "BEM"],
     demo: "https://github.com/dannijl88/movies-app",
     code: "https://github.com/dannijl88/movies-app",
-    featured: false,
-  },
-  {
-    name: "Tienda de Música",
-    description:
-      "projects.tiendamusica.description",
-    tags: ["Java", "Spring Boot", "Spring Data JPA", "MySQL", "Docker", "JUnit", "Mockito"],
-    demo: "https://github.com/dannijl88/tienda-musica",
-    code: "https://github.com/dannijl88/tienda-musica",
-    featured: false,
-  },
-  {
-    name: "Gestor de Biblioteca",
-    description:
-      "projects.gestorbiblioteca.description",
-    tags: ["Java", "Spring Boot", "Spring Data JPA", "MySQL", "Docker", "JUnit", "Mockito"],
-    demo: "https://github.com/dannijl88/gestor-biblioteca",
-    code: "https://github.com/dannijl88/gestor-biblioteca",
     featured: false,
   },
   {
