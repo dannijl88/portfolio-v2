@@ -20,6 +20,9 @@
     "devrecipes": {
       "description": "Full recipe management platform with JWT authentication. Users can register, log in, publish recipes and explore others'. Backend with Spring Boot, Spring Security, JPA/Hibernate and MySQL. Frontend with React and TypeScript. Deployed on Vercel and Railway."
     },
+    "slotlyfy": {
+      "description": "Multi-business SaaS booking platform (Booksy-style). Full REST API with JWT authentication, roles and real ownership, pagination, caching, transactional email notifications and OpenAPI/Swagger documentation."
+    },
     "devmovies": {
       "description": "Full stack movie platform. Backend with Spring Boot exposing own REST endpoints that act as intermediary between the frontend and the TMDB API. Frontend in React and TypeScript. Displays popular, top-rated, now playing, upcoming movies and search by title."
     },

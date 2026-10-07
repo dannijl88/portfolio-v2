@@ -2,6 +2,15 @@ import type { Project } from "../types/portfolio";
 
 
 export const projects: Project[] = [
+    {
+    name: "Slotlyfy",
+    description:
+      "projects.slotlyfy.description",
+    tags: ["Java", "Spring Boot", "Spring Security", "JWT", "MySQL", "Swagger/OpenAPI", "Docker"],
+    demo: "",
+    code: "https://github.com/dannijl88/bookit",
+    featured: true,
+  },
   {
     name: "Tienda de Música",
     description:

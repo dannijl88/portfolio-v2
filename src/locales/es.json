@@ -17,6 +17,9 @@
   "projects": {
     "title": "Proyectos",
     "description": "Trabajo reciente",
+    "slotlyfy": {
+      "description": "Plataforma SaaS de reservas multi-negocio (tipo Booksy). API REST completa con autenticación JWT, roles y ownership real, paginación, caché, envío de emails transaccionales y documentación OpenAPI/Swagger."
+    },
     "devrecipes": {
       "description": "Plataforma completa de gestión de recetas con autenticación JWT. Los usuarios pueden registrarse, iniciar sesión, publicar recetas y explorar las de otros. Backend con Spring Boot, Spring Security, JPA/Hibernate y MySQL. Frontend con React y TypeScript. Desplegada en Vercel y Railway."
     },
