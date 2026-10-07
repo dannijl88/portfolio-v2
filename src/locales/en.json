@@ -2,10 +2,7 @@
   "hero": {
     "status": "Open to work",
     "title": "Backend Developer",
-    "description": "Backend Developer with training in Web Application Development (DAW). 
-I build robust REST APIs with Java and Spring Boot, with experience in 
-JWT authentication, data persistence, and clean architecture. Projects 
-deployed to production.",
+        "description": "Backend Developer with training in Web Application Development (DAW). I build robust REST APIs with Java and Spring Boot, with experience in JWT authentication, data persistence, and clean architecture. Projects deployed to production.",
     "actions": {
       "projects": "View projects",
       "cv": "Download CV"
@@ -14,10 +11,7 @@ deployed to production.",
   "about": {
     "title": "About me",
     "subtitle": "I build robust APIs and backend systems, from the database to the business logic.",
-    "description": "I build complete REST APIs with Java and Spring Boot: authentication and 
-authorization with Spring Security (JWT), persistence with JPA/Hibernate, 
-and testing with JUnit and Mockito. I also know React and TypeScript, 
-which lets me understand how the API gets consumed end to end.",
+        "description": "I build complete REST APIs with Java and Spring Boot: authentication and authorization with Spring Security (JWT), persistence with JPA/Hibernate, and testing with JUnit and Mockito. I also know React and TypeScript, which lets me understand how the API gets consumed end to end.",
     "meta": "Crevillente (Alicante) · Available for remote, on-site and hybrid work"
   },
   "projects": {
