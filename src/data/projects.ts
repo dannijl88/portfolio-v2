@@ -36,7 +36,7 @@ export const projects: Project[] = [
     tags: ["React", "TypeScript", "Spring Boot", "JWT", "MySQL"],
     demo: "https://recetas-app-4phf.vercel.app",
     code: "https://github.com/dannijl88/recetas-app",
-    featured: true,
+    featured: false,
   },
   {
     name: "TaskFlow",
