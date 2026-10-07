@@ -2,7 +2,9 @@
   "hero": {
     "status": "Disponible para trabajar",
     "title": "Full Stack Developer",
-    "description": "Desarrollador Full Stack con formación en DAW. Construyo aplicaciones completas con Java, Spring Boot, React y TypeScript. Proyectos desplegados en producción con autenticación JWT, APIs REST y bases de datos MySQL.",
+    "description": "Desarrollador Backend con formación en DAW. Construyo APIs REST robustas 
+con Java y Spring Boot, con experiencia en autenticación JWT, persistencia 
+de datos y arquitectura limpia. Proyectos desplegados en producción.",
     "actions": {
       "projects": "Ver proyectos",
       "cv": "Descargar CV"
@@ -10,8 +12,11 @@
   },
   "about": {
     "title": "Sobre mí",
-    "subtitle": "Desarrollo aplicaciones web completas, de frontend a backend.",
-    "description": "Construyo aplicaciones web completas de frontend a backend. Trabajo con React y TypeScript en el cliente, y Java con Spring Boot en el servidor, priorizando código limpio, testing y buenas prácticas.",
+    "subtitle": "Desarrollo APIs y sistemas backend robustos, de la base de datos a la lógica de negocio.",
+    "description": "Construyo APIs REST completas con Java y Spring Boot: autenticación y 
+autorización con Spring Security (JWT), persistencia con JPA/Hibernate, 
+y testing con JUnit y Mockito. Conozco también React y TypeScript, lo 
+que me permite entender el consumo de la API de principio a fin.",
     "meta": "Crevillente (Alicante) · Disponible para trabajo remoto, presencial e híbrido"
   },
   "projects": {

@@ -28,20 +28,18 @@ export const navItems: NavItem[] = [
 export const skills: string[] = [
   "Java",
   "Spring Boot",
-  "React",
-  "TypeScript",
-  "JavaScript",
-  "MySQL",
-  "CSS BEM",
-  "vite",
-  "React Router",
-  "Git",
-  "REST API",
-  "Hibernate",
   "Spring Security",
   "JWT",
-  "Junit",
-  "Mockito"
+  "Hibernate",
+  "REST API",
+  "MySQL",
+  "Swagger/OpenAPI",
+  "Docker",
+  "JUnit",
+  "Mockito",
+  "Git",
+  "React",
+  "TypeScript"
 ];
 
 export const stack = [
